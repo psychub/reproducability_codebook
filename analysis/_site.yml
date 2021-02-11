@@ -1,7 +1,7 @@
-name: "reproducability_codebook"
+name: reproducability_codebook
 output_dir: ../docs
 navbar:
-  title: "reproducability_codebook"
+  title: reproducability_codebook
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/psychub/reproducability_codebook
 output:
   workflowr::wflow_html:
     toc: yes
